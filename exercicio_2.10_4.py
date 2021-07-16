@@ -9,7 +9,7 @@ min_chegada = 25
 # Calculando a diferença dos horários em minutos
 dif_em_minutos = (hora_chegada*60 + min_chegada) - (hora_partida*60 + min_partida)
 
-# Pow, mas a gente quer algo no formato HH:MM de diferença
+# Mas a gente quer algo no formato HH:MM de diferença
 
 HH = (dif_em_minutos - dif_em_minutos%60)/60
 MM = dif_em_minutos%60
