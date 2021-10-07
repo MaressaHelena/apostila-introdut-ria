@@ -20,6 +20,6 @@ print("O trem partiu as", hora_partida, ":", min_partida, " | chegou as", hora_c
 print("O tempo de viagem foi de", HH, ":", MM)
 
 print()
-print("----- MAS AQUI TÁ UMA FORMA DE EXIBIR MAIS BONTINHA E AVANÇADA -----")
+print("----- UMA EXIBIÇÃO MELHOR QUE A ANTERIOR-----")
 print("O trem partiu as {:.0f}:{:.0f} | chegou as {:.0f}:{:.0f}".format(hora_partida, min_partida, hora_chegada, min_chegada))
 print("O tempo de viagem foi de {:.0f}:{:.0f}".format(HH, MM), "minutos")

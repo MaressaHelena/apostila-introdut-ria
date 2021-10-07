@@ -7,9 +7,9 @@
 # >>> maisumpeso
 # >>>(60+0 j)
 
-a = 1
-b = 1
-c = -2
+a = float(input('Entre com o valor de a: '))
+b = float(input('Entre com o valor de b: '))
+c = float(input('Entre com o valor de c: '))
 delta = (b**2) - (4*a*c)
 raiz_1 = (-b -(delta)**0.5)/2*a
 raiz_2 = (-b +(delta)**0.5)/2*a
@@ -17,8 +17,6 @@ raiz_2 = (-b +(delta)**0.5)/2*a
 delta_c = complex(delta)
 raiz1 = complex(raiz_1)
 raiz2 = complex(raiz_2)
-print("Entre com o valor de a: ", a)
-print("Entre com o valor de b: ", b)
-print("Entre com o valor de c: ", c)
-print("Delta: ", delta_c)
-print("Raizes: ", raiz1, "e", raiz2)
+
+print(f"Delta: {delta_c}")
+print(f"Raizes: {raiz1} e {raiz2}")
